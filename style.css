@@ -8,6 +8,14 @@
   min-height: 100vh;
 }
 
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 82.5%,
+    rgba(92, 186, 196, 0.726) 100%
+  );
+}
+
 #page {
   width: 1000px;
   margin: 65px auto 0;
@@ -32,6 +40,7 @@ nav ul li {
   font-size: 18px;
   line-height: 23px;
   color: rgb(31, 21, 52);
+  width: 48px;
 }
 
 nav ul li a {
@@ -121,8 +130,14 @@ footer a:hover {
   text-decoration: underline;
 }
 
-#balls {
+#balls1 {
   position: fixed;
-  bottom: 0;
+  top: 0;
+  left: 0;
+}
+
+#balls2 {
+  position: fixed;
+  top: 0;
   right: 0;
 }
